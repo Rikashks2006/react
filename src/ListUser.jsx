@@ -13,7 +13,6 @@ function ListUser() {
                 console.error(err);
             });
     }, []);
-
     return (
         userList.length === 0 ? (
             <p>user not found</p>
